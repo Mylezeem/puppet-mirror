@@ -1,0 +1,22 @@
+fixtures:
+  repositories:
+    'stdlib':
+      repo: 'git://github.com/puppetlabs/puppetlabs-stdlib.git'
+      ref: '3.2.1'
+    'concat':
+      repo: 'git://github.com/puppetlabs/puppetlabs-concat.git'
+      ref: '1.0.2'
+    'apache':
+      repo: 'git://github.com/puppetlabs/puppetlabs-apache.git'
+      ref: '1.0.1'
+    'rsync':
+      repo: 'git://github.com/puppetlabs/puppetlabs-rsync.git'
+      ref: '0.2.0'
+    'xinetd':
+      repo: 'git://github.com/puppetlabs/puppetlabs-xinetd.git'
+      ref: '1.2.0'
+    'vsftpd':
+      repo: 'git://github.com/thias/puppet-vsftpd.git'
+      ref: '0.2.1'
+  symlinks:
+    "mirror": "#{source_dir}"

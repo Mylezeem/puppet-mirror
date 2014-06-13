@@ -1,0 +1,12 @@
+name    'yguenane-mirror'
+version '0.1.0'
+source 'https://github.com/Mylezeem/puppet-mirror'
+author 'Yanis Guenane'
+license 'Apache License, Version 2.0'
+summary 'A Puppet module to create repositories mirrors'
+description 'A Puppet module to create repositories mirrors'
+project_page 'https://github.com/Mylezeem/puppet-mirror'
+
+dependency 'puppetlabs/apache', '= 1.0.1'
+dependency 'puppetlabs/rsync', '= 0.2.0'
+dependency 'thias/vsftpd', '= 0.2.1'
